@@ -13,7 +13,7 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-      <h1 class="govuk-heading-xl">Add an employee</h1>
+      <h1 class="govuk-heading-xl">Please add an employee</h1>
 
         {% if errormessage %} 
             <div class="govuk-error-message">{{ errormessage }}</div> 
@@ -38,7 +38,7 @@
 
           <h1 class="govuk-label-wrapper">
             <label class="govuk-label govuk-label--l" for="email">
-                Email
+                Email Address
             </label>
           </h1>
           <input class="govuk-input" id="email" name="email" value="{{email}}" type="text">
@@ -114,7 +114,7 @@
             <input class="govuk-input" id="salary" name="salary" value="{{salary}}" type="text">
         </div>
 
-        <button class="govuk-button" id="submit">Submit</button>
+        <button class="govuk-button" id="submit">Submit new employee</button>
       </form>
 
     </div>
