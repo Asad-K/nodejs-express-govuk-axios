@@ -53,5 +53,5 @@ pre-requisite = docker and docker compose are installed in your local system.
     
     Next log onto your db instance and follow the commands under "Database".
     
-    Done....the service should be able to operate as expected.      
+    Done...the service should be able to operate as expected.      
     
